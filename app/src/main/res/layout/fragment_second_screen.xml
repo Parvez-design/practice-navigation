@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".first_screen">
+
+    <ImageView
+        android:layout_width="281dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/design_default_color_surface"
+        android:src="@mipmap/for_second_screen" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:fontFamily="@font/cousine"
+        android:gravity="center_horizontal"
+        android:text="@string/Text" />
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@color/white">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentStart="true"
+             android:id="@+id/second_next"
+             android:background="@color/white"
+             android:layout_marginStart="320dp"
+             android:layout_marginLeft="320dp"
+             android:text="@string/next" />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/previous"
+             android:background="@color/white"
+             android:id="@+id/second_previous"
+             android:layout_alignBottom="@id/second_next"/>
+     </RelativeLayout>
+
+</LinearLayout>

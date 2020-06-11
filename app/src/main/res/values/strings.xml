@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">navigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Text">Lorem Ipsum is simply dummy text\n
+    \t of the printing a\n
+    nd typesetting industry.Lorem\n
+    \t Ipsum has been\n
+    the industrys standard dummy\n
+    \t text ever since\n
+    the 1500s, when an unknown printer\n
+    \t took a galley of type and\n
+    \t scrambled it to make a type\n
+    \t specimen book.It has\n
+    survived not only five centuries,\n
+    but also the leap into electronic\n
+    typesetting, remaining essentially\n
+    unchanged. It was popularised in\n
+    the 1960s with the release of</string>
+    <string name="next">Next</string>
+    <string name="previous">Prev</string>
+    <string name="started">Get Started</string>
+</resources>

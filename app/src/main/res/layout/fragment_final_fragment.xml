@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:background="@color/white"
+    tools:context=".first_screen">
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:src="@mipmap/for_third_screen" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:fontFamily="@font/cousine"
+        android:gravity="center_horizontal"
+        android:text="@string/Text" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/started"
+        android:background="@color/colorPrimary"
+        android:id="@+id/final_next" />
+
+</LinearLayout>
