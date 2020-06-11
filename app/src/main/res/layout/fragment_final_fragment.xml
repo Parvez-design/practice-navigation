@@ -14,10 +14,18 @@
         android:layout_gravity="center_horizontal"
         android:background="@color/colorPrimaryDark"
         android:src="@mipmap/for_third_screen" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:fontFamily="@font/cousine"
+        android:gravity="center_horizontal"
+        android:text="@string/text1"
+        android:textColor="@color/Black" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="260dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:fontFamily="@font/cousine"
         android:gravity="center_horizontal"
         android:text="@string/Text" />

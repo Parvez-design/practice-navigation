@@ -16,7 +16,17 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="272dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/cousine"
+        android:gravity="center_horizontal"
+        android:text="@string/text1"
+        android:textColor="@color/Black" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:fontFamily="@font/cousine"
         android:gravity="center_horizontal"
         android:text="@string/Text" />

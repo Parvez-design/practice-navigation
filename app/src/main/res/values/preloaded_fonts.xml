@@ -2,5 +2,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/cousine</item>
+        <item>@font/cousine_bold</item>
     </array>
 </resources>
